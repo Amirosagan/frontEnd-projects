@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fractal Tree</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin: 0 0 0 0;">
+
+    <div id="inputs">
+        <div>
+            <label for="user-angle">Angle</label>
+            <input type="number" name="angle" id="user-angle" value="45">
+        </div>
+        <div>
+            <label for="user-trank">Trank height</label>
+            <input type="number" step="0.001" name="trank" min="0" max="1" id="user-trank" value="0.4">
+        </div>
+        <div>
+            <label for="user-limit">Limit</label>
+            <input type="number" name="limit" min="0" id="user-limit" max="12" value="8">
+        </div>
+        <div>
+            <label for="user-color">Color</label>
+            <input type="color" name="color" id="user-color" value="black">
+        </div>
+        <div>
+            <button id="download" class="button-57" role="button"><span class="text">Download Tree🌳</span><span>😉</span></button>
+        </div>
+    </div>
+
+    <canvas id="canvas" width="760" height="512"></canvas>
+
+    <footer>
+        <p>
+            Made by <a href="https://github.com/Amirosagan">Amir Elsagan</a> 🤗
+        </p>
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
